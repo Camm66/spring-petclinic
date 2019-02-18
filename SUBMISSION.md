@@ -8,7 +8,7 @@
 
 5 pts The section of the POM file showing the coordinates after you’ve changed them.
 
-[Image 2](images/img3.png)
+[Image 3](images/img3.png)
 
 5 pts Your Travis CI dashboard showing a successful build after your change of the group
 ID.
