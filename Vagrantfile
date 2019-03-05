@@ -47,10 +47,9 @@ Vagrant.configure("2") do |config|
   # config.vm.synced_folder "../data", "/vagrant_data"
   config.vm.synced_folder ".", "/home/vagrant/sync", disabled: true
   config.vm.provision :shell, path: "bootstrap.sh"
-  config.vm.provision :file, source: "target/spring-petclinic-1.4.2.jar",
-  ,→ destination: "/tmp/spring-petclinic-1.4.2.jar", run: "always"
-  config.vm.provision :shell, inline: "java -jar
-  ,→ /tmp/spring-petclinic-1.4.2.jar &", run: "always"
+  config.vm.provision :file, source: "target/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar",
+  destination: "/tmp/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar", run: "always"
+  config.vm.provision :shell, inline: "java -jar /tmp/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar &", run: "always"
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
