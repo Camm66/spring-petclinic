@@ -53,7 +53,7 @@ to this file rather than a screen capture.
 the database server. Please provide a link to this file rather than a screen capture.
 
 
-[application-mysql.properties](/application-mysql.properties)
+[application-mysql.properties](src/main/resources/application-mysql.properties)
 
 
 5 pts The output from the docker-compose up command.
