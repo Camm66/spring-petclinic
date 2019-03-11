@@ -1,45 +1,66 @@
-5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinic repository.
+DOCKER
+5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
 
 
-<img src="images/img1.png">
+[dockerfile](/dockerfile)
 
-5 pts Your Travis CI dashboard showing a successful first build.
 
-<img src="images/img2.png">
+5 pts Your running docker instance as shown by a ps command.
 
-5 pts The section of the POM file showing the coordinates after you’ve changed them.
 
-<img src="images/img3.png">
+<img src="images/docker_ps.png">
 
-5 pts Your Travis CI dashboard showing a successful build after your change of the group
-ID.
 
-<img src="images/img4.png">
+5 pts Your browser accessing the main page of the website from your local container.
 
-5 pts The section of the POM file showing the coordinates after you’ve commented them
-out.
 
-<img src="images/img5.png">
+<img src="images/main.png">
 
-5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
 
-<img src="images/img6.png">
+DOCKER COMPOSE - MYSQL ONLY
+5 pts The output from the docker-compose up command.
 
-5 pts Your Github repository with the readme.md file selected showing the build failed
-status after the Travis CI build fails.
 
-<img src="images/img7.png">
+<img src="images/composeup.png">
 
-5 pts The section of the POM file showing the coordinates after you’ve fixed them.
 
-<img src="images/img8.png">
+5 pts Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
 
-5 pts Your Travis CI dashboard showing the successful build after the breaking change has
-been fixed.
 
-<img src="images/img9.png">
+<img src="images/vetone.png">
 
-5 pts Your Github repository with the readme.md file selected showing the build success
-status after the Travis CI build has recovered.
 
-<img src="images/img10.png">
+5 pts A section of the stack trace generated when you attempt to run the application
+container that has been updated to use MySQL.
+
+
+<img src="images/stacktrace.png">
+
+
+DOCKER COMPOSE - APP SERVER AND MYSQL
+5 pts Your updated docker-compose.yml file containing the application server, built from
+your local Dockerfile, and the existing MySQL configuration. Please provide a link
+to this file rather than a screen capture.
+
+
+[docker-compose.yml](/docker-compose.yml)
+
+
+5 pts Your updated application-mysql.properties file containing the URL change for
+the database server. Please provide a link to this file rather than a screen capture.
+
+
+[application-mysql.properties](/application-mysql.properties)
+
+
+5 pts The output from the docker-compose up command.
+
+
+<img src="images/dockercompose1.png">
+<img src="images/dockercompose2.png">
+
+
+5 pts Your browser accessing the “Veterinarians” page of the website from your local container.
+
+
+<img src="images/vettwo.png">
