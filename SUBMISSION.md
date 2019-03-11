@@ -1,8 +1,9 @@
 DOCKER
+
 5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
 
 
-[dockerfile](/dockerfile)
+[Dockerfile](/Dockerfile)
 
 
 5 pts Your running docker instance as shown by a ps command.
@@ -18,10 +19,11 @@ DOCKER
 
 
 DOCKER COMPOSE - MYSQL ONLY
+
 5 pts The output from the docker-compose up command.
 
 
-<img src="images/composeup.png">
+<img src="images/composeupcmd.png">
 
 
 5 pts Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
@@ -38,6 +40,7 @@ container that has been updated to use MySQL.
 
 
 DOCKER COMPOSE - APP SERVER AND MYSQL
+
 5 pts Your updated docker-compose.yml file containing the application server, built from
 your local Dockerfile, and the existing MySQL configuration. Please provide a link
 to this file rather than a screen capture.
@@ -56,8 +59,8 @@ the database server. Please provide a link to this file rather than a screen cap
 5 pts The output from the docker-compose up command.
 
 
-<img src="images/dockercompose1.png">
 <img src="images/dockercompose2.png">
+<img src="images/dockercompose1.png">
 
 
 5 pts Your browser accessing the “Veterinarians” page of the website from your local container.
